@@ -6,3 +6,5 @@ jobs:
     steps:
       - name: Output event name
         run: echo "${{ toJSON(github['event_name']) }}"
+      - name: Output event details
+        run: echo "${{ toJSON(github['event']) }}"
