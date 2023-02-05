@@ -43,4 +43,4 @@ jobs:
       - name: Build code
         run: npm run build
       - name: Deploy code
-        run: echo "Deploying application"
+        run: echo "Deploying application..."
